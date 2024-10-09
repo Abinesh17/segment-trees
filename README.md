@@ -6,3 +6,6 @@ When you need to query the array for a range and do a point update (single eleme
 
 * For point update (update one element in array), use normal version of segment tree
 * For range update (update a range of elements with the given value) , use the lazy propagation verson of segment tree.
+
+TC: O(logn)
+SC: O(n)
